@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My website</title>
+
+    <script>
+        function greet() {
+            window.alert("Welcome to my website!")
+        }
+    </script>
+</head>
+
+<body>
+   <form style="display: flex; flex-direction: column; gap: 20px; justify-content: center; max-width: 400px;">
+<div>
+    <label for="name">Name</label>
+    <input id="name" type="text" />
+</div>
+
+<div>
+    <label for="age">Age</label>
+    <input id="age" type="number" />
+</div>
+
+<div>
+    <label for="city">City</label>
+    <input id="city" type="text" />
+</div>
+
+<input type="button" value="Submit" onclick="greet()" />
+   </form>
+</body>
+
+</html>
